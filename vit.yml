@@ -1,4 +1,4 @@
-cnn: 'inception_v3'
+cnn: 'vit'
 transformation:
   resize:
     w: 356
