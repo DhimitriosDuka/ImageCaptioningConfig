@@ -14,9 +14,9 @@ transformation:
   rhfp: 0.5
   rvfp: 0.5
   rrd: 45
-image size:
-  w: 299
-  h: 299
+  image size:
+    w: 299
+    h: 299
 pretrained: True
 embed size: 256
 hidden size: 256
