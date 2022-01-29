@@ -1,0 +1,26 @@
+model name: 'inception_v3'
+transformation:
+  resize:
+    w: 356
+    h: 356
+  std:
+    - 0.485
+    - 0.456
+    - 0.405
+  mean:
+    - 0.229
+    - 0.224
+    - 0.225
+  rhfp: 0.5
+  rvfp: 0.5
+  rrd: 45
+image size:
+  w: 299
+  h: 299
+pretrained: True
+embed size: 256
+hidden size: 256
+number of lstm layers: 4
+learning rate: 0.0001
+number of workers: 4
+batch size: 64
