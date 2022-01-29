@@ -1,4 +1,4 @@
-model name: 'inception_v3'
+cnn: 'inception_v3'
 transformation:
   resize:
     w: 356
