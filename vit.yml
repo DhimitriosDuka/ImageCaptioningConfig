@@ -18,7 +18,7 @@ transformation:
     w: 224
     h: 224
 pretrained: True
-embed size: 256
+embed size: 768
 hidden size: 256
 number of lstm layers: 4
 learning rate: 0.0001
