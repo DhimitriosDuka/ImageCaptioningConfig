@@ -20,9 +20,9 @@ transformation:
 pretrained: True
 embed size: 768
 hidden size: 256
-number of lstm layers: 4
+number of lstm layers: 2
 learning rate: 0.0003
 number of workers: 4
 batch size: 64
-save directory pretrained: "/content/drive/MyDrive/ImageCaptioning/Model/vit_pretrained_256_256_4.pth.tar"
-save directory not pretrained: "/content/drive/MyDrive/ImageCaptioning/Model/vit_not_pretrained_256_256_4.pth.tar"
+save directory pretrained: "/content/drive/MyDrive/ImageCaptioning/Model/vit_pretrained_768_256_2.pth.tar"
+save directory not pretrained: "/content/drive/MyDrive/ImageCaptioning/Model/vit_not_pretrained_768_256_2.pth.tar"
