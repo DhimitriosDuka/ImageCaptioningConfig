@@ -20,7 +20,7 @@ transformation:
 pretrained: True
 embed size: 768
 hidden size: 256
-number of lstm layers: 2
+number of lstm layers: 4
 learning rate: 0.0003
 number of workers: 4
 batch size: 64
