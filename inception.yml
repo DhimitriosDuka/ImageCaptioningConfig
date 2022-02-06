@@ -21,7 +21,7 @@ pretrained: True
 embed size: 256
 hidden size: 256
 number of lstm layers: 4
-learning rate: 0.0001
+learning rate: 0.0003
 number of workers: 4
 batch size: 64
 save directory pretrained: "/content/drive/MyDrive/ImageCaptioning/Model/inception_v3_pretrained_256_256_4.pth.tar"
