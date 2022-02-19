@@ -1,4 +1,4 @@
-cnn: 'vit' 
+cnn: 'vit'
 transformation:
   resize:
     w: 356
@@ -13,16 +13,17 @@ transformation:
     - 0.5
   rhfp: 0.5
   rvfp: 0.5
-  rrd: 45
-  image size:
+  rrd: 15
+  image_size:
     w: 224
     h: 224
 pretrained: True
-embed size: 768
-hidden size: 256
-number of lstm layers: 4
-learning rate: 0.0001
-number of workers: 4
-batch size: 64
-save directory pretrained: "/content/drive/MyDrive/ImageCaptioning/Model/vit_pretrained_768_256_2.pth.tar"
-save directory not pretrained: "/content/drive/MyDrive/ImageCaptioning/Model/vit_not_pretrained_768_256_2.pth.tar"
+embed_size: 256 
+hidden_size: 512
+num_layers: 4
+lr: 0.0001
+num_workers: 4
+batch_size: 
+  train: 64
+  test: 1
+
