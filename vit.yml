@@ -11,9 +11,9 @@ transformation:
     - 0.5
     - 0.5
     - 0.5
-  rhfp: 0.5
-  rvfp: 0.5
-  rrd: 15
+  rhfp: 0.2
+  rvfp: 0.2
+  rrd: 90
   image_size:
     w: 224
     h: 224
