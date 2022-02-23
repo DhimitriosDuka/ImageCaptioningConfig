@@ -18,8 +18,8 @@ transformation:
     w: 224
     h: 224
 pretrained: False
-embed_size: 1024
-hidden_size: 1024
+embed_size: 2048
+hidden_size: 2048
 num_layers: 2
 lr: 0.0001
 num_workers: 4
