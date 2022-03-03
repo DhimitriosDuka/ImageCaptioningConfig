@@ -20,7 +20,7 @@ transformation:
 pretrained: False
 embed_size: 1024
 hidden_size: 1024
-num_layers: 2
+num_layers: 1
 lr: 0.0001
 num_workers: 4
 batch_size: 
