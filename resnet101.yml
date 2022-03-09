@@ -24,6 +24,6 @@ num_layers: 2
 lr: 0.0001
 num_workers: 4
 batch_size: 
-  train: 128
+  train: 32
   test: 1
 partial_fine_tune: True
